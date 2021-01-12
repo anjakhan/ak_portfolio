@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3635bc11.chunk.css",
+    "main.js": "/static/js/main.61151aef.chunk.js",
+    "main.js.map": "/static/js/main.61151aef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.47788c5d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.47788c5d.js.map",
+    "static/js/2.b23f2e70.chunk.js": "/static/js/2.b23f2e70.chunk.js",
+    "static/js/2.b23f2e70.chunk.js.map": "/static/js/2.b23f2e70.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.19af9a3b29393051810265aea3172852.js": "/precache-manifest.19af9a3b29393051810265aea3172852.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3635bc11.chunk.css.map": "/static/css/main.3635bc11.chunk.css.map",
+    "static/js/2.b23f2e70.chunk.js.LICENSE.txt": "/static/js/2.b23f2e70.chunk.js.LICENSE.txt",
+    "static/media/PE_gemeinde.jpg": "/static/media/PE_gemeinde.9fc634bb.jpg",
+    "static/media/PE_map.jpg": "/static/media/PE_map.426800e4.jpg",
+    "static/media/PE_selection.jpg": "/static/media/PE_selection.5cc6d823.jpg",
+    "static/media/PE_tree_search.jpg": "/static/media/PE_tree_search.9cf7c987.jpg",
+    "static/media/PE_website.jpg": "/static/media/PE_website.a96a997e.jpg",
+    "static/media/anjakhan.jpg": "/static/media/anjakhan.ac3b10e7.jpg",
+    "static/media/recipe_app.jpg": "/static/media/recipe_app.f849e9cd.jpg",
+    "static/media/recipe_new.jpg": "/static/media/recipe_new.fdf08ee7.jpg",
+    "static/media/recipe_search.jpg": "/static/media/recipe_search.93b972df.jpg",
+    "static/media/recipe_sort.jpg": "/static/media/recipe_sort.5d3e9cd8.jpg",
+    "static/media/shop_cart.jpg": "/static/media/shop_cart.f4fcca0d.jpg",
+    "static/media/shop_checkout.jpg": "/static/media/shop_checkout.956c2480.jpg",
+    "static/media/shop_crwn.jpg": "/static/media/shop_crwn.5d9867c8.jpg",
+    "static/media/shop_hats.jpg": "/static/media/shop_hats.a2575912.jpg",
+    "static/media/shop_signin.jpg": "/static/media/shop_signin.87b339bc.jpg",
+    "static/media/sunset-river.jpg": "/static/media/sunset-river.44756b83.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47788c5d.js",
+    "static/js/2.b23f2e70.chunk.js",
+    "static/css/main.3635bc11.chunk.css",
+    "static/js/main.61151aef.chunk.js"
+  ]
+}
