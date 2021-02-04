@@ -14,3 +14,8 @@ export const image22 = require("./work/shop_hats.jpg");
 export const image23 = require("./work/shop_cart.jpg");
 export const image24 = require("./work/shop_checkout.jpg");
 export const image25 = require("./work/shop_signin.jpg");
+
+export const image31 = require("./work/github_repos.jpg");
+export const image32 = require("./work/github_search.jpg");
+export const image33 = require("./work/github_view_all.jpg");
+export const image34 = require("./work/github_view_less.jpg");

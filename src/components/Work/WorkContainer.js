@@ -2,7 +2,7 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
-import { Eco, MenuBook, ShoppingCart } from "@material-ui/icons";
+import { Eco, MenuBook, ShoppingCart, Dashboard } from "@material-ui/icons";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -13,7 +13,7 @@ import LinkButton from "components/Work/LinkButton.js";
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
 import { 
-    image1, image2, image3, image4, image5, image11, image12, image13, image14, image21, image22, image23, image24, image25 
+    image1, image2, image3, image4, image5, image11, image12, image13, image14, image21, image22, image23, image24, image25, image31, image32, image33, image34
 } from "assets/img/index.js";
 
 const useStyles = makeStyles(styles);
@@ -89,6 +89,30 @@ export default function WorkContainer() {
                     </div>
                     <LinkButton href="https://github.com/anjakhan/crwn-clothing" type="Code" />
                     <LinkButton href="https://crwn-economy.herokuapp.com/" type="Demo" />
+                </GridItem>
+            </GridContainer>
+            )
+        },
+        {
+            tabButton: "GitHub Repos",
+            tabIcon: Dashboard,
+            tabContent: (
+            <GridContainer justify="center">
+                <GridItem xs={12} sm={12} md={12}>
+                    <CarouselContainer images={[image31, image32, image33, image34]}/>
+                    <div className={classes.description}>
+                        <p>
+                            As an overview of all my repositories on GitHub I created the GitHub-Repos application. 
+                            In this react app I applied my newly gained knowledge on axios, lodash (debounce) and more detailed use of APIs. 
+                            The Website gives a short introduction into created and forked repositories partly with screenshots. 
+                            On page load nine repos are displayed, on button click all can be viewed. 
+                            Besides, a search input is available to search through existing repos. 
+                            Lodash debounce avoids sending a GET request with every typed character and calls for the API only 500ms after the user stopps typing.
+                            A more detailed overview with more insights on the repositories is planned. {" "}
+                        </p>
+                    </div>
+                    <LinkButton href="https://github.com/anjakhan/github-repos" type="Code" />
+                    <LinkButton href="https://ak-github-repos.netlify.app/" type="Demo" />
                 </GridItem>
             </GridContainer>
             )
